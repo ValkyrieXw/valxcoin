@@ -17,11 +17,6 @@ name = "VLX Community"
 website = "https://vlxmemecoin.com"
 email = "support@vlxmemecoin.com"
 
-[VALIDATORS]
-# If you have your own validators, add their public keys here
-# [[VALIDATORS.nodes]]
-# public_key = "nHUDrPzgkjEgrVRzT2mV5D9XaPdJLsNGrkWjEzL7eYd3XTBmm9bk"
-# network = "main"
 
 [ACCOUNTS]
 addresses = [
