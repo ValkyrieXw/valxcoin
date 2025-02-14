@@ -1,0 +1,41 @@
+# XRPL TOML Configuration File
+# Place this file at: https://yourdomain.com/.well-known/xrpl.toml
+
+[METADATA]
+title = "VLX Memecoin"
+description = "Welcome to the ValkyrieX ecosystem we are here to stay ! "
+version = "1.0"
+
+[[CURRENCIES]]
+code = "VLX"  # Your token code (3-6 uppercase characters)
+issuer = "rJUYEbk8iiPCxa8Ei6CpU2Nvs6Nb6pEwvc"  # Your XRPL issuing address
+display_decimals = 6  # Token supports up to 6 decimal places
+network = "main"  # Use "main" for XRPL Mainnet
+
+[ISSUER]
+name = "VLX Community"
+website = "https://vlxmemecoin.com"
+email = "support@vlxmemecoin.com"
+
+[VALIDATORS]
+# If you have your own validators, add their public keys here
+# [[VALIDATORS.nodes]]
+# public_key = "nHUDrPzgkjEgrVRzT2mV5D9XaPdJLsNGrkWjEzL7eYd3XTBmm9bk"
+# network = "main"
+
+[ACCOUNTS]
+addresses = [
+  "rJUYEbk8iiPCxa8Ei6CpU2Nvs6Nb6pEwvc"  # Your XRPL issuer address
+]
+
+[CONTACT]
+telegram = "https://t.me/valkyriexwing"
+discord = "https://discord.gg/yw3Z7CsPXc"
+twitter = "https://x.com/vlxmemecoin"
+
+[IMAGES]
+logo = "https://raw.githubusercontent.com/ValkyrieXw/valxcoin/refs/heads/main/resized_image.png"  # URL to your logo
+
+[SERVER]
+# (Optional) If you want to specify an XRPL WebSocket
+host = "wss://s1.ripple.com"  # Public XRPL WebSocket
